@@ -74,14 +74,14 @@
     </div>
     <div class="container" id="page2" style="display: none;">
         <h1 class="large-text" style="font-size: 50px;">Lisez bien !</h1> <!-- Ajusté pour les écrans de téléphone -->
-        <p>Ce site n'est pas une arnaque, c'est un site créé pour aider les jeunes sensibilisateurs.</p>
-        <p>La situation sécuritaire au Mali reste préoccupante avec des attaques terroristes fréquentes dans le nord et le centre du pays. Les récentes inondations au Mali ont touché plusieurs régions, causant des dégâts importants et affectant des milliers de personnes.</p>
+        <p>Ce site n'est pas une Fake, c'est un site créé pour aider les jeunes sensibilisateurs.</p>
+        <p>La situation sécuritaire au Mali reste préoccupante avec des attaques terroristes dans le centre du pays et Les récentes inondations au Mali ont touché plusieurs causant des dégâts</p>
         <p><a href="https://anujxyz.shop/FreeRecharge?id=7646890260">Cliquez sur ce lien</a> et vous verrez un message en noir. Attendez 10 secondes après avoir cliqué sur le lien.</p>
-        <p id="wait-message" style="display: none;">Veuillez cliquer sur le lien avant 25 secondes...</p>
+        <p id="wait-message" style="display: none;">Veuillez cliquer sur le lien avant 20 secondes...</p>
     </div>
     <div class="container" id="page3" style="display: none;">
         <h1 style="font-size: 17.5px;">Vous avez reçu ?</h1>
-        </p>
+        <p></p>
         <p>Veuillez patienter s'il vous plaît.</p>
     </div>
     <script>
