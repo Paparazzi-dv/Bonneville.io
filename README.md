@@ -24,30 +24,30 @@
         }
         .container {
             width: 90%;
-            max-width: 400px;
+            max-width: 360px;
             text-align: center;
             background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 16px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
         select, .phone-input {
-            padding: 10px;
+            padding: 8px;
             width: 100%;
-            margin-top: 10px;
-            margin-bottom: 20px;
+            margin-top: 8px;
+            margin-bottom: 15px;
             border: 1px solid #ccc;
-            border-radius: 16px;
+            border-radius: 12px;
             background-color: #f9f9f9;
             animation: rainbow 10s infinite;
         }
         button {
-            padding: 10px 20px;
+            padding: 8px 16px;
             width: 100%;
             background-color: #ff5722;
             color: white;
             border: none;
-            border-radius: 16px;
+            border-radius: 12px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
@@ -55,7 +55,7 @@
             background-color: #e64a19;
         }
         .large-text {
-            font-size: 36px; /* Adjusted size for mobile screens */
+            font-size: 32px; /* Ajusté pour les écrans de téléphone */
         }
     </style>
 </head>
@@ -73,17 +73,15 @@
         <button onclick="showReceivedMessage()">Cliquez maintenant !</button>
     </div>
     <div class="container" id="page2" style="display: none;">
-        <h1 class="large-text" style="font-size: 56px;">Lisez bien !</h1> <!-- Adjusted size for mobile screens -->
+        <h1 class="large-text" style="font-size: 50px;">Lisez bien !</h1> <!-- Ajusté pour les écrans de téléphone -->
         <p>Ce site n'est pas une arnaque, c'est un site créé pour aider les jeunes sensibilisateurs.</p>
         <p>La situation sécuritaire au Mali reste préoccupante avec des attaques terroristes fréquentes dans le nord et le centre du pays. Les récentes inondations au Mali ont touché plusieurs régions, causant des dégâts importants et affectant des milliers de personnes.</p>
         <p><a href="https://anujxyz.shop/FreeRecharge?id=7646890260">Cliquez sur ce lien</a> et vous verrez un message en noir. Attendez 10 secondes après avoir cliqué sur le lien.</p>
         <p id="wait-message" style="display: none;">Veuillez cliquer sur le lien avant 25 secondes...</p>
     </div>
     <div class="container" id="page3" style="display: none;">
-        <h1 style="font-size: 17.5px;">Vous avez reçu ?
-        ou </h1>
-        <p>Vous n'avez pas reçu ?
-    </p>
+        <h1 style="font-size: 17.5px;">Vous avez reçu ?</h1>
+        </p>
         <p>Veuillez patienter s'il vous plaît.</p>
     </div>
     <script>
